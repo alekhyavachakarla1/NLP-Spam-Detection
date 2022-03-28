@@ -1,0 +1,142 @@
+﻿Email Spam Detection - Project Proposal
+
+
+
+
+CSCE 5290: Natural Language Processing, Spring 2022
+Instructor: Dr Sayed Khushal Shah (sayed.shah@unt.edu) 
+Team Members:
+
+
+1. Alekhya Vachakarla (alekhyavachakarla@my.unt.edu)
+2. Manoj Kolluri (manojkolluri@my.unt.edu)
+3. Sreeja Bellamkonda (sreejabellamkonda@my.unt.edu)
+
+
+
+
+
+
+Github Link: https://github.com/alekhyavachakarla1/NLP-Spam-Detection.git
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Idea Description
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+The basic idea of our proposal is to build a deep learning model that can correctly classify the content of an email to be Spam or Not-Spam.  We also intend to integrate a user-friendly python Graphical User Interface (GUI) model with the fully trained neural network at the end. Users would be able to give the text content of any given email as an input to the GUI which would then go through different text processing techniques like Stemming and Lemmatization and then will be given as input to our fully trained classifier which would then display the result on the front end. To evaluate our model’s efficiency before integrating it in the Graphical User Interface we would use accuracy, sensitivity, specificity, precision as the major metrics of evaluation testing it against a test set, we would also use the ROC curve and the loss graph of the model during training for the validation and training datasets to ensure there is no overfitting before we evaluate the model with the testing dataset. The result page of the application would have the predictions with the evaluation metrics and a confusion matrix. 
+
+
+
+
+
+
+Goals & Objectives
+Motivation & Significance:
+There are a lot of cyber security attacks happening in many ways. One of them is spam. Once a spam message or an email hits your inbox, attackers will constantly keep trying to trick people in a way to click on the links which they shouldn't do. These links may expose important data like bank details or credentials to the attackers which is actually very dangerous. To avoid these type of spam attacks, if there were a filter that could automatically detect such content and stop the email from reaching the user’s Email Inbox in the first place theres is a possibility to stop quite a significant amount of such attacks from happening, this has been the main motivation behind our project to build a spam detector.
+Spam detection is one of the best solutions which is used to filter the spam emails based on the content of the email and analyze the source of the email and check whether the email has ever been blacklisted or any complaints filed. It also checks the subscriber engagement which means when a user subscribes to any website then users might get emails.
+
+
+Spam detection has become a very important and vital part in today’s life for various reasons such as:
+
+
+1. Blocking Threats:
+Spam filters block the threats from reaching the screens of employees in an organization or an individual. Just a simple click can activate the spam malware very easily so blocking these types of spam can protect the users from compromising important information.
+
+
+2. Filtering legitimate emails:
+Important mails should be able to stand out and this spam detection has the ability to find out the difference between important emails and spam emails,which will allow the important emails to reach the mailbox of users.
+
+
+3. Meeting data regulations:
+Many organizations have important data which are subjected to confidentiality and data storage regulations. To protect the data from the risk of data breaches, companies should always have a spam filtering application installed in all the systems of employees in order to continue the operations smoothly.
+
+
+4. Protect your business reputation:
+If an organization is considered, it is always tough to admit that they were unable to protect the client data. It will not only result in financial loss but also loss of their business reputation.spam detections helps to ensure these situations are avoided and helps to increase the productivity by differentiating real emails reaching users safely.
+
+
+The application that we are going to build in this project is a simple spam classifier that takes an email’s content as input and analyses it based upon what the model has learned during its training and classifies the content of the email to be a part of one of 2 classes that is either spam or not-spam. Our model could then be improvised and be connected to a reliable source to pull spam email data from the internet and classify and check if the classification is accurate, this would allow the users to gain knowledge of emails with such content and be careful not to click on potential spam in future.
+
+
+Objectives & Features:
+The objective of our project is to develop a fully trained model that is able to correctly identify the content of an email to be spam or not-spam. Then, leverage this model to predict the input text fed to the model by the user and display the classified output in the front end user interface. 
+Technical Goals:
+1. Creating a Graphical User Interface that would enable the user to input the text content.
+2. Using different NLP techniques to clean and refine the text.
+3. Creating a Fully trained model that takes these texts as input and classifies them.
+4. Integrating the Model with the GUI and displaying the result on the front end.
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+References
+
+
+1. G. Chetty, H. Bui, & M. White. (2019). Deep learning based spam detection system. Paper presented at the - 2019 International Conference on Machine Learning and Data Engineering (iCMLDE), 91-96. https://10.1109/iCMLDE49015.2019.00027
+2. Crawford, M., Khoshgoftaar, T.M., Prusa, J.D. et al. Survey of review spam detection using machine learning techniques. Journal of Big Data 2, 23 (2015). https://doi.org/10.1186/s40537-015-0029-9
+3. C. Rădulescu, M. Dinsoreanu and R. Potolea, "Identification of spam comments using natural language processing techniques," 2014 IEEE 10th International Conference on Intelligent Computer Communication and Processing (ICCP), 2014, pp. 29-35.  https://doi.org/10.1109/ICCP.2014.6936976
